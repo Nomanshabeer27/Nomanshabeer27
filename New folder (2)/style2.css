@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #191978;
+    color:#ffffff;
+    text-align:  center;
+    background-image: url(istockphoto-1297981622-1024x1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-size: 45px;
+}
+input{
+    width: 75px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 5px;
+    background-color:#ffffff;
+    color: #000000;
+}
+.btn:hover {
+    background-color: rgb(235, 235, 4);
+    cursor: pointer;
+}

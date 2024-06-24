@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <form action="" name="clc">
+        <input type="text" name="dispaly" style="width:355px; height: 50px; background-color: #2f4f4f;"><br>
+        <input class="btn" type="button" value="0" onclick="clc.dispaly.value +='0' ">
+        <input class="btn" type="button" value="1" onclick="clc.dispaly.value +='1' ">
+        <input class="btn" type="button" value="2" onclick="clc.dispaly.value +='2' ">
+        <input class="btn" type="button" value="-" onclick="clc.dispaly.value +='-' "
+            style="background-color: #7fff00;"><br>
+        <input class="btn" type="button" value="3" onclick="clc.dispaly.value +='3' ">
+        <input class="btn" type="button" value="4" onclick="clc.dispaly.value +='4' ">
+        <input class="btn" type="button" value="5" onclick="clc.dispaly.value +='5' ">
+        <input class="btn" type="button" value="+" onclick="clc.dispaly.value +='+' "
+            style="background-color: burlywood;"><br>
+        <input class="btn" type="button" value="6" onclick="clc.dispaly.value +='6' ">
+        <input class="btn" type="button" value="7" onclick="clc.dispaly.value +='7' ">
+        <input class="btn" type="button" value="8" onclick="clc.dispaly.value +='8' ">
+        <input class="btn" type="button" value="*" onclick="clc.dispaly.value +='0*' "
+            style="background-color: blue;"><br>
+        <input class="btn" type="button" value="9" onclick="clc.dispaly.value +='9' ">
+        <input class="btn" type="button" value="C" onclick="clc.dispaly.value ='' " style="background-color: aqua;">
+        <input class="btn" type="button" value="&#247" onclick="clc.dispaly.value +='&#247' "
+            style="background-color: bisque;">
+        <input class="btn" type="button" value="=" onclick="clc.dispaly.value =eval(clc.dispaly.value) "
+            style="background-color: green;">
+        </from>
+
+</html>
